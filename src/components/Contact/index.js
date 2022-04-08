@@ -89,7 +89,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Mike Novajosky
+          Michael Novajosky
           <br />
           Renton, WA <br />
           425-442-9166 <br />
