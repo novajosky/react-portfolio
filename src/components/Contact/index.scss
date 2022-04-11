@@ -57,12 +57,12 @@
     }
   
     .flat-button {
-      color: #ffd700;
+      color: #00f33d;
       font-size: 11px;
       letter-spacing: 3px;
       text-decoration: none;
       padding: 8px 10px;
-      border: 1px solid #ffd700;
+      border: 1px solid #00f33d;
       float: left;
       border-radius: 4px;
       background: 0 0;
@@ -92,7 +92,7 @@
   
   .info-map {
     position: relative;
-    background: rgb(65, 4, 4);
+    background: rgb(8, 4, 4);
     left: 60%;
     top: 50px;
     width: 200px;
@@ -105,11 +105,7 @@
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
   
-    span {
-      font-size: 16px;
-  
-      span {
-        color: #ffd700;
-      }
+    a {
+        color: #00f33d;
     }
   }
