@@ -1,0 +1,36 @@
+a.deployed-link, a.github-link {
+    font-size: 11px;
+    color: #000000;
+    display: block;
+    line-height: 51px;
+    height: 51px;
+    position: relative;
+    text-decoration: none;
+
+    i {
+        transition: all 0.3 ease-out;
+    }
+
+    &:hover {
+        color: #00f33d;
+
+        svg {
+            opacity: 0;
+        }
+
+        &:after {
+            opacity: 1;
+        }
+    }
+}
+a.deployed-link {
+    &:after {
+        content: 'Deployed App';
+    }
+}
+
+a.github-link {
+    &:after {
+        content: 'Github';
+    }
+}

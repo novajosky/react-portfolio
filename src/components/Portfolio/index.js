@@ -1,4 +1,8 @@
 import React from 'react'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperclip } from '@fortawesome/free-solid-svg-icons';
+
 import './index.scss'
 
 export default function Portfolio() {
@@ -14,10 +18,8 @@ export default function Portfolio() {
                         </p>
                     </div>
                     <div className="card-footer">
-                        <a target="_blank" href="https://matchplaygolf.herokuapp.com/"><span class="link-effect">
-                                Deployed Version</span></a>
-                        <a className="link-gh" target="_blank" href="https://github.com/novajosky/MatchPlay"><i
-                                class="fa fa-github"></i>Source Code</a>
+                        <a className="deployed-link" target="_blank" href="https://matchplaygolf.herokuapp.com/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a>
+                        <a className="github-link" target="_blank" href="https://github.com/novajosky/MatchPlay"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
                     </div>
                 </div>
             </div>
