@@ -79,3 +79,11 @@
       transform: rotateX(90deg);
     }
   }
+
+.container {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    max-width: 70%;
+    max-height: 90%;
+}

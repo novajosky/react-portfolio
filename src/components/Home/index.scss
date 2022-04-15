@@ -1,7 +1,7 @@
 .home-page {
     .text-zone {
       position: absolute;
-      left: 25%;
+      left: 15%;
       top: 50%;
       transform: translateY(-50%);
       max-width: 70%;
@@ -9,7 +9,7 @@
     }
   
     h1 {
-      color: #09180d;
+      color: #ffffff;
       font-size: 30px;
       line-height: 60px;
       margin: 0;
@@ -45,18 +45,8 @@
       opacity: 0;
       width: 150px;
       height: 110px;
-      animation: fadeInUp 1.5s linear both;
+      animation: fadeInRight 1.5s linear both;
       animation-delay: 4s;
-    }
-  
-    h2 {
-      color: #000000;
-      margin-top: 20px;
-      font-weight: 400;
-      font-size: 11px;
-      font-family: sans-serif;
-      letter-spacing: 3px;
-      animation: fadeIn 1s 1.8s backwards;
     }
   
     .flat-button {
@@ -70,7 +60,7 @@
       border: 1px solid #00f33d;
       margin-top: 25px;
       float: left;
-      animation: fadeInUp 1s 1.8s backwards;
+      animation: fadeInRight 1s 1.8s backwards;
       white-space: nowrap;
   
       &:hover {

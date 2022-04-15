@@ -3,7 +3,7 @@ import './index.scss'
 
 export default function Portfolio() {
   return (
-    <div className='container'>
+    <div className= "container portfolio">
         <div className='row g-3'>
             <div className="col-14 col-md-6 col-lg-4">
                 <div className="card">

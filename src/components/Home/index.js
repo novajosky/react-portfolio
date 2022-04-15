@@ -58,6 +58,7 @@ const Home = () => {
               src={LogoSubtitle}
               alt="JavaScript Developer Name, Web Developer Name"
             />
+            <br />
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
