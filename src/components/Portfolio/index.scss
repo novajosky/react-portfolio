@@ -1,7 +1,6 @@
 a.deployed-link, a.github-link {
-    font-size: 11px;
-    color: #000000;
-    display: block;
+    font-size: 18px;
+    color: #3a3a3a;
     line-height: 51px;
     height: 51px;
     position: relative;
@@ -15,7 +14,7 @@ a.deployed-link, a.github-link {
         color: #00f33d;
 
         svg {
-            opacity: 0;
+            opacity: 0.2;
         }
 
         &:after {
