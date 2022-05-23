@@ -15,27 +15,6 @@ const Contact = () => {
     }, 3000)
   }, [])
 
-  const sendEmail = (e) => {
-    e.preventDefault()
-
-    emailjs
-      .sendForm(
-        'gmail',
-        'template_lw7n3go',
-        refForm.current,
-        'AosQGp2HV0_k2G_xj'
-      )
-      .then(
-        () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
-        },
-        () => {
-          alert('Failed to send the message, please try again')
-        }
-      )
-  }
-
   return (
     <>
       <div className="container contact-page">
