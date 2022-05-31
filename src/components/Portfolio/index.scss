@@ -1,3 +1,23 @@
+.portfolio-page {
+    .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 25%;
+      transform: translateY(-50%);
+      max-width: 70%;
+      max-height: 90%;
+    }
+  
+    h1 {
+      color: #00f33d;
+      font-size: 30px;
+      line-height: 60px;
+      margin: 0;
+      font-family: 'Helvetica';
+      font-weight: 400;
+    }
+}
+
 a.deployed-link, a.github-link {
     font-size: 18px;
     color: #3a3a3a;
@@ -40,4 +60,8 @@ a.github-link {
     top: 10%;
     max-width: 70%;
     max-height: 90%;
+}
+
+.card-footer {
+
 }

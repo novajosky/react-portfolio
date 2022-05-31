@@ -1,11 +1,9 @@
-import React from 'react'
-import { useEffect, useState } from 'react'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { useEffect, useState, React } from 'react';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperclip } from '@fortawesome/free-solid-svg-icons';
 import AnimatedLetters from '../AnimatedLetters';
-
-import './index.scss'
+import './index.scss';
 
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -34,7 +32,6 @@ const Portfolio = () => {
                     </div>
                     <div className="card-footer">
                         <a className="deployed-link" target="_blank" href="https://matchplaygolf.herokuapp.com/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a>
-                        <br />
                         <a className="github-link" target="_blank" href="https://github.com/novajosky/MatchPlay"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
                     </div>
                 </div>
