@@ -18,12 +18,12 @@ const Portfolio = () => {
             <div className= "container portfolio-page">
                 <div className= "text-zone">
                 <h1>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={['P', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o']}
-              idx={15}
-            />
-          </h1>
+                <AnimatedLetters
+                letterClass={letterClass}
+                strArray={['P', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o']}
+                idx={15}
+                />
+                </h1>
                     <div className="card-body">
                         <h5 className="card-title">MatchPlay</h5>
                         <p className="card-text">A MERN-stack web application that allows users to 
@@ -33,6 +33,34 @@ const Portfolio = () => {
                     <div className="card-footer">
                         <a className="deployed-link" target="_blank" href="https://matchplaygolf.herokuapp.com/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a>
                         <a className="github-link" target="_blank" href="https://github.com/novajosky/MatchPlay"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
+                    </div>
+                    <div className="card-body">
+                        <h5 className="card-title">Hidden Gems</h5>
+                        <p className="card-text">A full-stack Django web application that uses a mapbox API to alow users to share favorite spots
+                        , photos and reviews for locations on or off grid using coordinate data.
+                        </p>
+                    </div>
+                    <div className="card-footer">
+                        <a className="deployed-link" target="_blank" href="https://hidden-gems-usa.herokuapp.com/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a>
+                        <a className="github-link" target="_blank" href="https://github.com/novajosky/Hidden-Gems"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
+                    </div>
+                    <div className="card-body">
+                        <h5 className="card-title">Employee Software</h5>
+                        <p className="card-text">A MEN stack CRUD software tracking application that includes OAuth functionality.
+                        </p>
+                    </div>
+                    <div className="card-footer">
+                        <a className="deployed-link" target="_blank" href="https://employee-software-sei.herokuapp.com/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a>
+                        <a className="github-link" target="_blank" href="https://github.com/novajosky/employee-software"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
+                    </div>
+                    <div className="card-body">
+                        <h5 className="card-title">Hangman</h5>
+                        <p className="card-text">A game of hangman built using HTML, CSS and Javascript.
+                        </p>
+                    </div>
+                    <div className="card-footer">
+                        <a className="deployed-link" target="_blank" href="https://novajosky.github.io/hangman/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a>
+                        <a className="github-link" target="_blank" href="https://github.com/novajosky/hangman"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
                     </div>
                 </div>
             </div>

@@ -2,19 +2,23 @@
     .text-zone {
       position: absolute;
       left: 10%;
-      top: 25%;
+      top: 50%;
       transform: translateY(-50%);
       max-width: 70%;
       max-height: 90%;
     }
   
     h1 {
-      color: #00f33d;
+      color: #ffffff;
       font-size: 30px;
       line-height: 60px;
       margin: 0;
       font-family: 'Helvetica';
       font-weight: 400;
+    }
+
+    h5, p {
+        color:#ffffff;
     }
 }
 
