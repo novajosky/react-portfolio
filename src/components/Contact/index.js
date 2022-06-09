@@ -22,12 +22,13 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={['C', 'o', 'n', 't', 'a', 'c', 't']}
               idx={15}
             />
           </h1>
           <p>
-            I am interested in any opportunity that allows me to work with others and collaborate.
+            I am interested in any opportunity that allows me to work with others and collaborate
+            on building web applications to enrich the lives of users of any project I work on.
             If you have any requests, feel free to contact me through email,
             phone or Linkedin
           </p>
