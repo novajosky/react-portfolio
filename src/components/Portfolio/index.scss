@@ -66,6 +66,13 @@ a.github-link {
     max-height: 90%;
 }
 
-.card-footer {
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
 
+
+    .card {
+        flex: 1 1 200px;
+
+    }
 }
