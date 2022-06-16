@@ -27,7 +27,7 @@ const Portfolio = () => {
                     <div className="card-container">
                         <div className="card">
                             <div className="card-body">
-                                <h5 className="card-title">MatchPlay</h5>
+                                <h2 className="card-title">MatchPlay</h2>
                                 <p className="card-text">A MERN-stack web application that allows users to 
                                     share and connect with other like-minded golfers.
                                 </p>
@@ -40,7 +40,7 @@ const Portfolio = () => {
 
                         <div className="card">
                             <div className="card-body">
-                                <h5 className="card-title">Hidden Gems</h5>
+                                <h2 className="card-title">Hidden Gems</h2>
                                 <p className="card-text">A full-stack Django web application that uses a mapbox API to alow users to share favorite spots
                                 , photos and reviews for locations on or off grid using coordinate data.
                                 </p>
@@ -53,7 +53,7 @@ const Portfolio = () => {
 
                         <div className="card">
                             <div className="card-body">
-                                <h5 className="card-title">Employee Software</h5>
+                                <h2 className="card-title">Employee Software</h2>
                                 <p className="card-text">A MEN stack CRUD software tracking application that includes OAuth functionality.
                                 </p>
                             </div>
@@ -65,7 +65,7 @@ const Portfolio = () => {
 
                         <div className="card">
                             <div className="card-body">
-                                <h5 className="card-title">Hangman</h5>
+                                <h2 className="card-title">Hangman</h2>
                                 <p className="card-text">A game of hangman built using HTML, CSS and Javascript.
                                 </p>
                             </div>
