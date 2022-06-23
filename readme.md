@@ -3,7 +3,7 @@
 This project was created to showcase some of what I learned from my time at General Asssembly. This particular project allowed me to play with animations and utilize packages for the icons displayed throughout. 
 
 ## ScreenShots
-![About Page w/ Nav Bar](https://imgur.com/sLFFB1k)
+![About Page w/ Nav Bar](https://i.imgur.com/sLFFB1k.png)
 
 
 ## Technologies Used
