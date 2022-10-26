@@ -32,6 +32,7 @@ const Contact = () => {
           425-442-9166 <br />
           <a href={"mailto:mikenovajosky@gmail.com"}>MikeNovajosky@gmail.com</a>
           <br />
+          <br />
             I am interested in any opportunity that allows me to work with others and collaborate
             on building web applications to enrich the lives of users of any project I work on.
             If you have any requests, feel free to contact me through email,
