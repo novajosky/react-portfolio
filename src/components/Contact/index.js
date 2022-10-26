@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import { useRef } from 'react'
-import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
@@ -27,18 +26,17 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in any opportunity that allows me to work with others and collaborate
-            on building web applications to enrich the lives of users of any project I work on.
-            If you have any requests, feel free to contact me through email,
-            phone or Linkedin
-          </p>
-        </div>
-        <div className="info-map">
           Michael Novajosky
           <br />
           Renton, WA <br />
           425-442-9166 <br />
           <a href={"mailto:mikenovajosky@gmail.com"}>MikeNovajosky@gmail.com</a>
+          <br />
+            I am interested in any opportunity that allows me to work with others and collaborate
+            on building web applications to enrich the lives of users of any project I work on.
+            If you have any requests, feel free to contact me through email,
+            phone or Linkedin
+          </p>
         </div>
       </div>
       <Loader type="pacman" />
