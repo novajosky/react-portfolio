@@ -33,7 +33,7 @@ const Portfolio = () => {
                                 </p>
                             </div>
                             <div className="card-footer">
-                                <a className="deployed-link" target="_blank" href="https://matchplaygolf.herokuapp.com/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a>
+                                <a className="deployed-link" target="_blank" href="https://matchplaygolf.herokuapp.com/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a><br/>
                                 <a className="github-link" target="_blank" href="https://github.com/novajosky/MatchPlay"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ const Portfolio = () => {
                                 </p>
                             </div>
                             <div className="card-footer">
-                                <a className="deployed-link" target="_blank" href="https://hidden-gems-usa.herokuapp.com/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a>
+                                <a className="deployed-link" target="_blank" href="https://hidden-gems-usa.herokuapp.com/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a><br/>
                                 <a className="github-link" target="_blank" href="https://github.com/novajosky/Hidden-Gems"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const Portfolio = () => {
                                 </p>
                             </div>
                             <div className="card-footer">
-                                <a className="deployed-link" target="_blank" href="https://employee-software-sei.herokuapp.com/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a>
+                                <a className="deployed-link" target="_blank" href="https://employee-software-sei.herokuapp.com/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a><br/>
                                 <a className="github-link" target="_blank" href="https://github.com/novajosky/employee-software"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ const Portfolio = () => {
                                 </p>
                             </div>
                             <div className="card-footer">
-                                <a className="deployed-link" target="_blank" href="https://novajosky.github.io/hangman/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a>
+                                <a className="deployed-link" target="_blank" href="https://novajosky.github.io/hangman/"><FontAwesomeIcon icon={faPaperclip} color="#4d4d4e" /></a><br/>
                                 <a className="github-link" target="_blank" href="https://github.com/novajosky/hangman"><FontAwesomeIcon icon={faGithub} color="#4d4d4e" /></a>
                             </div>
                         </div>
