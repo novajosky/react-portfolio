@@ -1,36 +1,8 @@
-.portfolio-page {
-    .text-zone {
-      position: absolute;
-      left: 20%;
-      top: 50%;
-      transform: translateY(-50%);
-      max-width: 70%;
-      max-height: 90%;
-    }
-  
-    h1 {
-      color: #ffffff;
-      font-size: 30px;
-      line-height: 60px;
-      margin: 0;
-      font-family: 'Helvetica';
-      font-weight: 400;
-    }
-
-    h2 {
-        color:#00f33d;
-    }
-
-    p {
-        color:#ffffff;
-    }
-}
-
 a.deployed-link, a.github-link {
-    font-size: 18px;
+    font-size: 16px;
     color: #3a3a3a;
-    line-height: 51px;
-    height: 51px;
+    line-height: 26px;
+    height: 41px;
     position: relative;
     text-decoration: none;
 

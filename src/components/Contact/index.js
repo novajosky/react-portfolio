@@ -30,7 +30,7 @@ const Contact = () => {
           <br />
           Renton, WA <br />
           425-442-9166 <br />
-          <a href={"mailto:mikenovajosky@gmail.com"}>MikeNovajosky@gmail.com</a>
+          <a className="email-link" href={"mailto:mikenovajosky@gmail.com"}>MikeNovajosky@gmail.com</a>
           <br />
           <br />
             I am interested in any opportunity that allows me to work with others and collaborate

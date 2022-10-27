@@ -12,7 +12,7 @@
   .tags {
     color: #00f33d;
     opacity: 0.6;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 120px;
     font-size: 18px;
@@ -38,19 +38,20 @@
   }
   
   .container.contact-page,
+  .container.portfolio-page,
   .container.about-page {
     .text-zone {
       position: absolute;
       left: 20%;
       top: 50%;
       transform: translateY(-50%);
-      width: 75%;
+      width: 90%;
       vertical-align: middle;
       display: table-cell;
       max-height: 90%;
   
       h1 {
-        font-size: 53px;
+        font-size: 48px;
         font-family: 'Coolvetica';
         color: #00f33d;
         font-weight: 400;
@@ -82,9 +83,19 @@
           opacity: 0.6;
         }
       }
+      h2 {
+        font-size: 16px;
+        font-family: 'Coolvetica';
+        color: #00f33d;
+        font-weight: 400;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        left: -10px;
+      }
   
       p {
-        font-size: 13px;
+        font-size: 12px;
         color: #fff;
         font-family: sans-serif;
         font-weight: 300;
@@ -105,6 +116,11 @@
     .text-animate-hover {
       &:hover {
         color: #fff;
+      }
+    }
+    .email-link {
+      &:hover {
+        color: red;
       }
     }
   }
