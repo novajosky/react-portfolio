@@ -1,7 +1,7 @@
 a.deployed-link, a.github-link {
-    font-size: 16px;
+    font-size: 15px;
     color: #3a3a3a;
-    line-height: 26px;
+    line-height: 30px;
     height: 41px;
     position: relative;
     text-decoration: none;
@@ -45,7 +45,6 @@ a.github-link {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-
 
     .card {
         flex: 1 1 200px;
