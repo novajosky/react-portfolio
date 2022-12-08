@@ -14,7 +14,7 @@ This project was created to showcase some of what I learned from my time at Gene
     5.React
 
 ### Getting Started
-[Click To Go To App](https://react-portfolio-mike-novajosky.herokuapp.com/)<br>
+[Click To Go To App](https://63923301d69c2a0266458486--delicate-kangaroo-5e7d3c.netlify.app/)<br>
 
 ## Next Steps
     1.I will be adding more projects to the projects page as I progess in my journey with web development.
